@@ -1,7 +1,6 @@
 import React from "react";
 
 import styles from './index.css';
-import { Menu, Dropdown, Icon } from 'antd';
 import home_logo from "../assets/home_logo.png"
 
 class Header extends React.Component {
