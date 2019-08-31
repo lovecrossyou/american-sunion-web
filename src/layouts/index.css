@@ -4,6 +4,24 @@
   text-align: center;
 }
 
+.auth_normal{
+  font-family: Georgia, sans-serif;
+  padding: 0 6rem;
+  box-sizing: border-box;
+  text-align: left;
+}
+
+.user_wrapper{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.username{
+  font-size: 0.6rem;
+  color: #ffffff;
+}
+
 .title {
   font-size: 2.5rem;
   font-weight: normal;
@@ -18,6 +36,14 @@
   display: flex;
   flex-direction: row;
   align-items: center;
+}
+
+.user_logo{
+  background-color: #6B8CAE;
+  width: 1.33rem;
+  height: 1.33rem;
+  border-radius: 50%;
+  margin-right: 10px;
 }
 
 .home_nav_container{
@@ -92,6 +118,12 @@ a:link{
 }
 .home_nav_right{
   width: 500px;
+  justify-content: space-between;
+  display: flex;
+}
+
+.home_nav_right_auth{
+  width: 400px;
   justify-content: space-between;
   display: flex;
 }
