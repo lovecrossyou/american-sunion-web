@@ -1,7 +1,14 @@
 html, body, #root {
   height: 100%;
+  background-color: #F6F9FC;
 }
 
 body {
   margin: 0;
+}
+
+.ant-tabs-nav-scroll{
+  background-color: #ffffff;
+  padding: 0 4rem;
+  box-sizing: border-box;
 }

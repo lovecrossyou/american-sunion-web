@@ -18,7 +18,7 @@ export default function () {
   return (
     <div className={styles.normal}>
       <div className={styles.auth_normal}>
-        <Tabs defaultActiveKey="1" onChange={callback}>
+        <Tabs defaultActiveKey="overall" onChange={callback}>
           <TabPane tab="Overall" key="overall">
             <Overall />
           </TabPane>
